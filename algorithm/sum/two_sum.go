@@ -19,6 +19,14 @@ func twoSumIndex(nums []int, target int) []int {
 	return ret
 }
 
+/*
+func twoSumIndexV2(num []int,target int)[]int{
+ 	ret := make([]int,2)
+ 	for i,j := range nums{
+ 		index,ok := nums[target - ]
+	}
+}
+*/
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	res := []int{}
