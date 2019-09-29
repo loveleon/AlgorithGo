@@ -36,7 +36,6 @@ func NewListNode() *ListNode {
 }
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
-	//func threeSum(l *ListNode,r *ListNode)*ListNode{
 	head := NewListNode()
 	tmpHead := head
 	flag := 0
